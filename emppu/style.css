@@ -1,3 +1,54 @@
 html {
     background-color: #000;
 }
+
+
+.four04 {
+    font-size: 32px;
+    color: transparent;
+    text-align: center;
+    margin-top: 40vh;
+    animation: rainbow 10s infinite ease-in-out;
+}
+
+.four {
+    font-size: 64px;
+}
+
+.page {
+    font-size: 24px;
+}
+
+.four04 p {
+    margin: 0;
+}
+
+@keyframes rainbow {
+    0% {
+        color: pink;
+    }
+    12.5% {
+        color: red;
+    }
+    25% {
+        color: orange;
+    }
+    37.5% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    62.5% {
+        color: blue;
+    }
+    75% {
+        color: indigo;
+    }
+    87.5% {
+        color: violet;
+    }
+    100% {
+        color: red;
+    }
+}
