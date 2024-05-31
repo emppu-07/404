@@ -17,14 +17,14 @@ let dvd = {
     ctx = canvas.getContext("2d");
 
     video = document.createElement('video');
-    video.src = '0000-0199.mkv'; // Vaihda tähän videon tiedostopolku
+    video.src = '0000-0199.mkv'; 
     video.loop = true;
     video.muted = true;
     video.play();
 
     video.onloadeddata = function() {
         canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight - 50; // Adjust for navbar height
+        canvas.height = window.innerHeight - 50; 
         pickColor();
         setInitialDirection();
         update();
