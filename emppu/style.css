@@ -1,54 +1,30 @@
-html {
-    background-color: #000;
-}
-
-
-.four04 {
-    font-size: 32px;
-    color: transparent;
-    text-align: center;
-    margin-top: 40vh;
-    animation: rainbow 10s infinite ease-in-out;
-}
-
-.four {
-    font-size: 64px;
-}
-
-.page {
-    font-size: 24px;
-}
-
-.four04 p {
+body {
     margin: 0;
+    overflow: hidden;
+    background-color: black;
 }
-
-@keyframes rainbow {
-    0% {
-        color: pink;
-    }
-    12.5% {
-        color: red;
-    }
-    25% {
-        color: orange;
-    }
-    37.5% {
-        color: yellow;
-    }
-    50% {
-        color: green;
-    }
-    62.5% {
-        color: blue;
-    }
-    75% {
-        color: indigo;
-    }
-    87.5% {
-        color: violet;
-    }
-    100% {
-        color: red;
-    }
+#navbar {
+    width: 100%;
+    background-color: #111;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#tv-screen {
+    position: absolute;
+    top: 50px;
+    left: 0;
 }
